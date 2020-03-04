@@ -1,0 +1,103 @@
+body{
+    background-color: #FFFFFF;
+    margin: 0px;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5em;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    position: fixed;
+    top: 0px;
+    background-color: #FFFFFF;
+    height: 3em;
+}
+
+.menu a{
+    text-decoration: none;
+    margin: 1em;
+    color: black;
+}
+
+hr{
+    margin: 1em 10em;
+}
+
+.Container{
+    width: 95%;
+    max-width: 95%;
+    margin: auto;
+    background-color: #3b83bd;
+    text-align: center;
+    padding: 1em;
+    color: whitesmoke;
+}
+
+.first{
+    margin-top: 5em;
+}
+
+.fotoperfil{
+        width:8em;
+        height:8em;
+        border-radius:4.1em;
+        border:2px solid #666;
+}
+
+.profiles{
+    margin: 0px 2em;
+}
+
+h6{
+    font-size: 1.3em;
+    margin: 0.5em;
+}
+
+.profilesContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 2em;
+    margin-top: 2em
+}
+
+.circulo{
+    width:6em;
+    height:6em;
+    border-radius:3.1em;
+    margin: 0;
+    border:2px solid #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.span{
+    font-size: 3em; 
+    color: #3b83bd;
+
+}
+.white{
+    background-color: white;
+}
+
+.CardHTML{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.CardHTML p{
+    margin: 0px 1em;
+}
