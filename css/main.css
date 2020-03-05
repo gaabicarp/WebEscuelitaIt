@@ -6,8 +6,6 @@ body{
 .header{
     width: 100%;
     text-align: center;
-    display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     padding: 0.5em;
@@ -16,12 +14,18 @@ body{
     top: 0px;
     background-color: #FFFFFF;
     height: 3em;
+    z-index: 1;
 }
 
 .menu a{
     text-decoration: none;
     margin: 1em;
     color: black;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
 }
 
 hr{
@@ -32,7 +36,7 @@ hr{
     width: 95%;
     max-width: 95%;
     margin: auto;
-    background-color: #3b83bd;
+    margin-top: 2em;
     text-align: center;
     padding: 1em;
     color: whitesmoke;
@@ -40,13 +44,25 @@ hr{
 
 .first{
     margin-top: 5em;
+    height: 570px;
+    background-image: url(../img/bkgroundblue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second{
+    background-image: url(../img/bkgroundgreen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
 }
 
 .fotoperfil{
-        width:8em;
-        height:8em;
-        border-radius:4.1em;
+        width:6em;
+        height:6em;
+        border-radius:3.1em;
         border:2px solid #666;
+        box-shadow:20px 20px 4em grey; 
 }
 
 .profiles{
@@ -59,8 +75,6 @@ h6{
 }
 
 .profilesContainer{
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
@@ -83,7 +97,33 @@ h6{
 .span{
     font-size: 3em; 
     color: #3b83bd;
+}
 
+.arrow{
+    width:1.25em;
+    height:1.25em;
+    border-radius:0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    font-size: 4em;
+    color: white;
+    position: absolute;
+    left: 700px;
+    top: 620px; 
+}
+
+.arrow a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow:hover{
+    width: 1.24em;
+    height: 1.24em;
+    font-size: 4.12em;
 }
 .white{
     background-color: white;
@@ -95,9 +135,32 @@ h6{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    margin: 1em;
 }
 
 .CardHTML p{
     margin: 0px 1em;
+}
+
+.img1{
+    width: 30em;
+}
+
+.flexrow{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexcontainer{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.containerImg{
+    width: 40%;
+    background-color: white;
+    color: black;
+    border-radius: 3em;
 }
