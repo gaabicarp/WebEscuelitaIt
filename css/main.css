@@ -44,7 +44,7 @@ hr{
 
 .first{
     margin-top: 5em;
-    height: 570px;
+    height: 33em;
     background-image: url(../img/bkgroundblue.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +54,7 @@ hr{
     background-image: url(../img/bkgroundgreen.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 33em;
 }
 
 .fotoperfil{
@@ -96,7 +96,7 @@ h6{
 
 .span{
     font-size: 3em; 
-    color: #3b83bd;
+    color: #3DB2C4;
 }
 
 .arrow{
@@ -110,8 +110,8 @@ h6{
     font-size: 4em;
     color: white;
     position: absolute;
-    left: 700px;
-    top: 620px; 
+    left: 10em;
+    top: 9em; 
 }
 
 .arrow a{
@@ -123,11 +123,14 @@ h6{
 .arrow:hover{
     width: 1.24em;
     height: 1.24em;
-    font-size: 4.12em;
+    background-color: cornsilk;
+    color: cadetblue;
 }
 .white{
     background-color: white;
+    margin-bottom: 2em;
 }
+
 
 .CardHTML{
     text-align: center;
@@ -135,7 +138,12 @@ h6{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1em;
+    margin: 1em 2em;
+    background-color: white;
+    border-radius: 2em;
+    color: white;
+    width: 13em;
+    height: 27em;
 }
 
 .CardHTML p{
@@ -151,6 +159,10 @@ h6{
     flex-direction: row;
 }
 
+.space{
+    justify-content: space-between;
+}
+
 .flexcontainer{
     justify-content: center;
     align-items: center;
@@ -163,4 +175,33 @@ h6{
     background-color: white;
     color: black;
     border-radius: 3em;
+    margin: auto;
+}
+
+
+.cntTxtCard{
+    width: 90%;
+    background-color: rgb(66, 184, 135);
+    border-radius: 2em;
+    margin: 0px auto;
+    height: 17em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btn{
+    width: 60%;
+    height: 2em;
+    background-color: #3DB2C4;
+    margin: 0.5em auto;
+    border-radius: 2em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lstCrd{
+    text-align: start;
+    margin: 0.5em 0em;
 }
