@@ -44,7 +44,7 @@ hr{
 
 .first{
     margin-top: 5em;
-    height: 33em;
+    height: 37em;
     background-image: url(../img/bkgroundblue.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +54,7 @@ hr{
     background-image: url(../img/bkgroundgreen.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 33em;
+    height: 35em;
 }
 
 .fotoperfil{
@@ -196,12 +196,35 @@ h6{
     background-color: #3DB2C4;
     margin: 0.5em auto;
     border-radius: 2em;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .lstCrd{
     text-align: start;
     margin: 0.5em 0em;
+}
+
+.insc{
+    width: 40%;
+    background-color: rgb(61, 104, 196);
+}
+
+.btn:hover{
+    background-color: rgb(17, 6, 179);
+}
+
+.link{
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    background-color: rgb(0, 102, 185);
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1em;
 }
