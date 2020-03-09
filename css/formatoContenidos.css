@@ -1,0 +1,43 @@
+
+
+		body{
+			background-image: url("../img/fondo.jpg");
+		}
+
+		.conten{
+			display: flex;
+			flex-direction: row;
+			align-content: center;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+
+		.conten>div{
+			width: 30%;
+			align-content: center;
+			justify-content: center;
+		}
+
+		ul{
+			list-style-type: none;
+		}
+		.conten>div a:link, a:visited {
+  			background-color:rgb(8, 172, 81);
+  			color: white;
+ 			padding: 20px 25px;
+  			text-align: center;
+			justify-content: center;
+  			text-decoration: none;
+  			display: inline-block;
+			margin-right: 20%;
+  			margin-left: 20%;
+			margin-top: 1%;
+			margin-bottom: 1%;
+			width: 40%;
+			border: 2px solid white;
+
+		}
+
+		.conten>div a:hover, a:active {
+  			background-color: rgb(2, 88, 6);
+		}

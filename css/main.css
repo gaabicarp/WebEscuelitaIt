@@ -15,6 +15,11 @@ body{
     background-color: #FFFFFF;
     height: 3em;
     z-index: 1;
+    font-size: 16px;
+}
+
+.table{
+    margin-top: 10em;
 }
 
 .menu a{
@@ -41,6 +46,32 @@ hr{
     padding: 1em;
     color: whitesmoke;
 }
+.tab{
+    margin-top: 5em;
+    background-image: url(../img/bkgrdark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35em;
+}
+
+.inscrip{
+    margin-top: 5em;
+    height: 71em;
+    background-image: url(../img/bkgroundgreen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.formcontainer{
+    margin-top: 5em;
+    height: 34em;
+    background-image: url(../img/bkgroundblue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .first{
     margin-top: 5em;
@@ -54,7 +85,7 @@ hr{
     background-image: url(../img/bkgroundgreen.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 35em;
+    height: 38em;
 }
 
 .fotoperfil{
@@ -138,12 +169,12 @@ h6{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1em 2em;
+    margin: 1em 4em;
     background-color: white;
     border-radius: 2em;
     color: white;
     width: 13em;
-    height: 27em;
+    height: 30em;
 }
 
 .CardHTML p{
@@ -184,7 +215,7 @@ h6{
     background-color: rgb(66, 184, 135);
     border-radius: 2em;
     margin: 0px auto;
-    height: 17em;
+    height: 20em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -227,4 +258,177 @@ h6{
     justify-content: space-around;
     align-items: center;
     margin-top: 1em;
+}
+
+.form-login {
+    width: 400px;
+    height: 340px;
+    background: #4e4d4d;
+    margin: auto;
+    margin-top: 3em;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #017bab;
+    color: white;
+}
+
+.form-singin{
+    width: 800px;
+    height: 67em;
+    background: #4e4d4d;
+    margin: auto;
+    margin-top: 1em;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #017bab;
+    color: white;
+}
+
+.form-login h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.controls {
+    width: 95%;
+    border: 1px solid #017bab;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #252323;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buttons {
+    width: 100%;
+    height: 40px;
+    background: #017bab;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.form-login p {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.form-login a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form-login a:hover {
+    text-decoration: underline;
+}
+.btnreset{
+    margin: 1em;
+
+}
+
+body {
+    background-image: url('img/screen-7.jpg');
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: monospace;
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+label{
+    margin: 0.5em auto;
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border:  none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+#boton {
+    background: #31384A;
+    color: #fff;
+    padding: 20px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+
+
+.conten{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.conten>div{
+    width: 30%;
+    align-content: center;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+}
+.conten>div a:link, a:visited {
+      background-color:rgb(8, 172, 81);
+     padding: 20px 25px;
+      text-align: center;
+    justify-content: center;
+      text-decoration: none;
+      display: inline-block;
+    margin-right: 20%;
+      margin-left: 20%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 40%;
+    border: 2px solid white;
+
+}
+
+.conten>div a:hover, a:active {
+      background-color: rgb(2, 88, 6);
+}
+
+
+@media(max-width:480px) {
+    form{
+        width: 100%;
+    }
 }
